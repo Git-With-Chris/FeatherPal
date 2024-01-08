@@ -7,9 +7,6 @@ This project focuses on building a robust deep learning model for bird species c
 ## Project Demo
 
 ![Evaluation](images/ModelEvaluation.png)
-![Training Curves](images/TrainingCurves.png)
-![GradCAM](images/GradCAM.png)
-
 
 ## Dataset Information
 
@@ -28,6 +25,8 @@ Training and Evaluation. The model is compiled using the Adam optimizer, categor
 
 The project includes GradCAM (Gradient-weighted Class Activation Mapping) for visualizing the regions of an image that contribute most to the model's predictions. This interpretable visualization aids in understanding the model's decision-making process.
 
+![Training Curves](images/TrainingCurves.png)
+
 ### Classification Report
 
 A detailed classification report is generated, presenting precision, recall, F1-score, and support for each class. Uncommenting a line in the code allows for saving the report as 'classification_report.csv'.
@@ -35,6 +34,8 @@ A detailed classification report is generated, presenting precision, recall, F1-
 ### GradCAM Visualization of Predictions
 
 A set of images from the testing set is chosen randomly to showcase the GradCAM visualizations. This provides insights into the regions of the images influencing the model's predictions.
+
+![GradCAM](images/GradCAM.png)
 
 ## Project Structure
 ```
