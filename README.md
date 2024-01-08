@@ -1,8 +1,15 @@
-# FeatherPal
+# Feather Pal 🕊️
 
 ## Project Overview
 
 This project focuses on building a robust deep learning model for bird species classification using TensorFlow and the EfficientNetB0 architecture. The dataset consists of a diverse collection of bird images, and the goal is to train a model that accurately identifies and classifies different bird species.
+
+## Project Demo
+
+![Evaluation](images/ModelEvaluation.png)
+![Training Curves](images/TrainingCurves.png)
+![GradCAM](images/GradCAM.png)
+
 
 ## Dataset Information
 
@@ -28,6 +35,20 @@ A detailed classification report is generated, presenting precision, recall, F1-
 ### GradCAM Visualization of Predictions
 
 A set of images from the testing set is chosen randomly to showcase the GradCAM visualizations. This provides insights into the regions of the images influencing the model's predictions.
+
+## Project Structure
+```
+.
+|-- FeatherPal.h5
+|-- FeatherPal_EFFNETB0.ipynb
+|-- README.md
+`-- images
+    |-- GradCAM.png
+    |-- ModelEvaluation.png
+    `-- TrainingCurves.png
+
+2 directories, 6 files
+```
 
 ## Conclusion
 
