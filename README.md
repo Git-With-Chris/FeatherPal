@@ -4,7 +4,7 @@
 
 This project focuses on building a robust deep learning model for bird species classification using TensorFlow and the EfficientNetB0 architecture. The dataset consists of a diverse collection of bird images, and the goal is to train a model that accurately identifies and classifies different bird species.
 
-## Project Demo
+## Model Demo
 
 ![Evaluation](images/ModelEvaluation.png)
 
